@@ -85,10 +85,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up remaining space to push footer to bottom */
     flex: 1 0 auto;
     margin-top: 47px; /* Offset for fixed header height */
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image-love-running.webp') no-repeat center center/cover;
 }
 
 /* Footer */
