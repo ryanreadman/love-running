@@ -26,6 +26,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none; /* Hide the h2 meetup times from view but keep it in the HTML for SEO purposes */
+}
+
 /* Header */
 header {
     background-color: #ffffff;
