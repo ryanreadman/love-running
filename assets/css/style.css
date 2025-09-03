@@ -210,7 +210,7 @@ hr {
     /* Main content */
     main {
     /* Push main content down below fixed header */
-    margin-top: 79px;
+        margin-top: 79px;
     }
 
     /* Hero */
@@ -235,6 +235,32 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+}
+
+/* Meetup times section */
+#times {
+    background: url("../images/dublin-city-love-running.webp") no-repeat center/cover;
+    /* Handles responsivity without the need for media queries */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup times over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Override the h3 colour set in general styles */
+    color: #fafafa;
 }
 
 /* Media query: laptops and larger (992px and up) */
